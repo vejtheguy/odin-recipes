@@ -144,8 +144,8 @@ a {
 }
 
 .cta p {
-  max-width: 515px;
-  font-size: 0.8rem;
+  max-width: 800px;
+  font-size: 1rem;
   margin-top: 10px;
   padding: 0 30px;
   color: #d98755;
@@ -171,6 +171,11 @@ a {
 
 #nav li:nth-child(even) img {
   clip-path: polygon(0% 0, 80% 0%, 100% 100%, 0% 100%);
+}
+
+#nav li:nth-child(even) .cta {
+  padding-left: 0;
+  padding-right: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -199,6 +204,9 @@ a {
   }
   #nav li:nth-child(even) img {
     clip-path: none;
+  }
+  #nav li:nth-child(even) .cta {
+    padding: 40px;
   }
   .cta {
     padding: 40px;
