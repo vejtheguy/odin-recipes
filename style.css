@@ -40,6 +40,7 @@ h2 {
   text-transform: uppercase;
   color: #51c067;
   font-size: 3.5rem;
+  text-align: center;
 }
 
 h3 {
@@ -207,13 +208,10 @@ a {
   padding-right: 40px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1225px) {
   .wrapper {
     flex-direction: column;
   }
-}
-
-@media (max-width: 1000px) {
   .card {
     flex-direction: column;
   }
@@ -246,7 +244,7 @@ a {
   }
   #nav li {
     min-width: 350px;
-    min-height: 425px;
+    min-height: 575px;
   }
   .desc {
     max-height: 100%;
