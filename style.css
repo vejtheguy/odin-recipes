@@ -14,12 +14,14 @@ body {
 
 main {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 auto;
   padding: 40px;
   font-family: "Montserrat", sans-serif;
   gap: 30px;
+  max-width: 1600px;
 }
 
 header {
